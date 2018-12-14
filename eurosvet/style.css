@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+}
+
+/* Header styles */
+.custom-header__wrapper {
+    width: 100%;
+
+    background: #f26522;
+}
+
+.custom-header__container {
+    width: 960px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+.custom-header__logo {
+    width: 32%;
+}
+
+.custom-header__logo-content {
+    margin-top: 30px;
+}
+
+.custom-header__img {
+    width: 20%;
+}
+
+.custom-header__img-content {
+    width: 175px;
+    height: 100px;
+}
+
+.custom-header__number {
+    align-self: center;
+
+    font-family: "Arial", sans-serif;
+
+    color: #ffffff;
+}
+
+.custom-header__number-link {
+    display: block;
+
+    font-family: "Arial", sans-serif;
+
+    color: #ffffff;
+
+    text-decoration: none;
+}
+
+.custom-header__number-item {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+.custom-footer__wrapper {
+    width: 100%;
+
+    background: #f2f2f2;
+}
+
+.custom-footer__container {
+    width: 960px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+.custom-footer__menu-list {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 30px 0;
+
+    font-family: "Arial", sans-serif;
+
+    font-size: 14px;
+
+    color: #141414;
+}
+
+.custom-footer__menu-title {
+    margin-bottom: 15px;
+
+    font-size: 18px;
+
+    color: rgba(49,49,49,.55);
+}
+
+.custom-footer__menu {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.custom-footer__menu-link {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #141414;
+
+    text-decoration: none;
+}
+
+.custom-footer__menu-link:hover {
+    text-decoration: underline;
+}
+
+/* Body styles */
+
+.header {
+    background: transparent !important;
+
+    border-bottom: 1px solid #f26522 !important;
+}
+
+.header .content .logo:before {
+    font-size: 32px !important;
+    color: #f26522 !important;
+}
+
+.header .content nav .menu-link {
+    border-bottom: 1px solid #f26522 !important;
+}
+
+.header .content nav .menu-link.is-active {
+    border-color: #ff5200 !important;
+}
+
+.header .content .user {
+    background: transparent !important;
+}
+
+.pi-button-red {
+    font-size: 16px !important;
+
+    height: 40px !important;
+
+    background: rgba(242, 101, 34,1) !important;
+
+    border-color: #c1673c !important;
+}
+
+.main .sidebar {
+    width: 188px !important;
+
+    margin-top: 28px !important;
+    padding: 20px !important;
+
+    border: 1px solid #f26522 !important;
+    border-radius: 5px;
+}
+
+.main .content {
+    width: 700px !important;
+}
